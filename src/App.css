@@ -1,0 +1,19 @@
+/* App.css — minimal pass-through, all design is in index.css */
+
+/* 
+  Background is clean — no floating blobs or gradients.
+  Light mode: bg-base handles it
+  Dark mode: bg-base handles it
+*/
+
+body {
+  background: var(--bg-base);
+}
+
+/* ensure app bg doesn't render visual noise */
+.app-bg { display: none; }
+
+.hero-display { font-family: var(--font-display); font-size: 2.25rem; font-weight: 800; }
+.hero-display.sm { font-size: 2rem; }
+
+.accent-primary-border { border-left: 3px solid var(--accent-red) !important; }
